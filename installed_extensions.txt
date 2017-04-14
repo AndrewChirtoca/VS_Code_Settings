@@ -1,0 +1,3 @@
+C# (v 1.8.0) by Microsoft(powered by Omnisharp)
+Debugger for Unity (v 1.1.0) by Unity Technologies
+Insert Date String (v 1.2.1) by jsynowiec
