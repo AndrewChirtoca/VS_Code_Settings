@@ -1,0 +1,96 @@
+{
+/*
+	// Place your snippets for C# here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+
+    "Monobehaviour Script Template":
+    {
+        "prefix": "nmb",
+        "body": [
+            "//===----------------------------------------------------------------------===//",
+            "//",
+            "//  vim: ft=cs tw=80",
+            "//",
+            "//  Date:    ${date:Insert datetime string (⇧⌘I or Ctrl+Shift+I)}",
+            "//  Creator: Chirtoca Andrei <andrewchirtoca@gmail.com>",
+            "//",
+            "//===----------------------------------------------------------------------===//",
+            "\n",
+            "using UnityEngine;",
+            "using System;",
+            "using System.Collections.Generic;",
+            "\n",
+            "/// <summary>",
+            "/// ${1:NewMonoBehaviour} class.",
+            "/// </summary>",
+            "public class ${1:NewMonoBehaviour} : MonoBehaviour",
+            "{",
+            "#region Public serialized variables",
+            "#endregion",
+            "\n\n",
+            "#region Private variables",
+            "$0",
+            "#endregion",
+            "\n\n",
+            "#region Public methods and properties",
+            "#endregion",
+            "\n\n",
+            "#region Monobehavior methods",
+            "#endregion",
+            "}"
+        ],
+        "description": "New Unity Monobehaviour Script"
+    },
+
+    "Scriptable Object Template":
+    {
+        "prefix": "nso",
+        "body": [
+            "//===----------------------------------------------------------------------===//",
+            "//",
+            "//  vim: ft=cs tw=80",
+            "//",
+            "//  Date:    ${date:Insert datetime string (⇧⌘I or Ctrl+Shift+I)}",
+            "//  Creator: Chirtoca Andrei <andrewchirtoca@gmail.com>",
+            "//",
+            "//===----------------------------------------------------------------------===//",
+            "\n",
+            "using UnityEngine;",
+            "using System;",
+            "using System.Collections.Generic;",
+            "\n",
+            "/// <summary>",
+            "/// ${1:NewScriptableObject} class.",
+            "/// </summary>",
+            "[CreateAssetMenu(fileName = \"${2:SOFileName}\", menuName = \"${3:SOMenuName}/${4:SOItemName}\")]",
+            "public class ${1:NewScriptableObject} : ScriptableObject",
+            "{",
+            "#region Public serialized variables",
+            "#endregion",
+            "\n\n",
+            "#region Private variables",
+            "$0",
+            "#endregion",
+            "\n\n",
+            "#region Public methods and properties",
+            "#endregion",
+            "\n\n",
+            "#region ScriptableObject methods",
+            "#endregion",
+            "}"
+        ],
+        "description": "New Scriptable Object"
+    }
+}

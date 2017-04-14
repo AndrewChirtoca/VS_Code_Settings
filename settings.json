@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.codeLens": false,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Consolas",
+    "editor.renderWhitespace": "boundary",
+    "editor.detectIndentation": false,
+    //"editor.wordWrap": "bounded",
+    "files.eol": "\n",
+    // Date format to be used.
+    "insertdatestring.format": "DD/MM/YY hh:mm:ss"
+}
